@@ -2,7 +2,13 @@
    Reed's' custom styles
    ========================================================================== */
 
-
+.text-block {
+    position: absolute;
+    bottom: 30%;
+    right: 40%;
+    color: white;
+    font-size: 50px;
+}
 
 
 

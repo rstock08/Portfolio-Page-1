@@ -3,9 +3,9 @@
    ========================================================================== */
 
 function hover(element) {
-  element.setAttribute("src", "img/Light Bulb Blue.png");
+  element.setAttribute("src", "img/Rocket-Launching.png");
 }
 
 function unhover(element) {
-  element.setAttribute("src", "img/Light Bulb.png");
+  element.setAttribute("src", "img/Rocket.png");
 }
