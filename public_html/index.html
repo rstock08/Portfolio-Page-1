@@ -20,9 +20,11 @@
         <title>Reed's Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+        <script src="js/main.js"></script>
     </head>
     
     <body style="background-color: #1F2833" data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -30,21 +32,19 @@
             <!-- Overlay image -->
             <div class="page" id="Home">
                 <div>
-                    <img src="img/England - Overlay.jpg" class="img-fluid" alt="Overlay image of England" style="opacity: .2; filter: alpha(opacity=20); width: 100%;">
+                    <img src="img/eng2-2.jpg" class="img-fluid" alt="Overlay image of England" style="opacity: .2; filter: alpha(opacity=20); max-width: 100%; height: auto;">
                 </div>
             </div> <!-- Page Home -->
-            
-      
         </header>
         
         <!-- Navigation bar with logo and toggle for collapsing -->
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-            <a class="navbar-brand" href="#Home"><img src="img/Light Bulb.png" alt="Logo" style="height: 50px; width:60px;"></a>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top" style="height: 55px;">
+            <a class="navbar-brand" href="#Home"><img id="bulbColor" onmouseover="hover(this);" onmouseout="unhover(this);" src="img/Light Bulb.png" alt="Logo" style="height: 50px; width:60px;"> Home </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav navbar-right">
+                <ul class="nav navbar-nav ml-auto">
                    <li class="nav-item"><a class="nav-link" href="#AboutMe">About Me</a></li>
                    <li class="nav-item"><a class="nav-link" href="#ProjectExamples">Project Examples</a></li>
                    <li class="nav-item"><a class="nav-link" href="#ContactMe">Contact Me</a></li>
@@ -61,8 +61,8 @@
                             turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
                     <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes,
                             nascetur ridiculus mus.</p>
-                </div> <!-- outer row -->
-            </div> <!-- outer -->
+                </div> <!-- page -->
+            </div> <!-- media -->
         </div> <!-- Page About Me -->
 
 
