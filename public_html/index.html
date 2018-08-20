@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
-   <!-- Colors scheme
-   Navy Blue #18121E 
-   Gun Metal #233237 
-   Rusty Red #984B43 
-   Warm Yellow #EAC67A
    
+   <!-- 
+   Color Scheme:
    
    Black: #0B0C10 
    Navy Blue: #1F2833 
@@ -28,12 +24,13 @@
     </head>
     
     <body style="background-color: #1F2833" data-spy="scroll" data-target=".navbar" data-offset="100">
+        
         <header>
             <!-- Overlay image -->
             <div class="page" id="Home">
                 <img src="img/England-Overlay-Logo-Caption.png" class="img-fluid" alt="Overlay image of England" style="max-width: 100%; height: auto;">
             </div> <!-- Page Home -->
-        </header>
+        </header> <!-- End of header elements -->
         
         <!-- Navigation bar with logo and toggle for collapsing -->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
@@ -42,64 +39,65 @@
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item"><a class="navbar-brand" href="#Home" onmouseover="hover(bulbColor);" onmouseout="unhover(bulbColor);"><img id="bulbColor" src="img/Rocket.png" alt="Home Button" style="height: 50px; width:60px;"> Home </a></li>
+                    <li class="nav-item"><a id="homeButton" class="navbar-brand" href="#Home" onmouseover="hover(homeButton, rocketColor);" onmouseout="unhover(homeButton, rocketColor);" style="color: #C5C6C7; font-size: 17px;">
+                            <img id="rocketColor" src="img/Rocket.png" alt="Home Button" style="height: 40px; width:50px;"> 
+                            Home 
+                        </a>
+                    </li>
                 </ul>
-                <ul class="nav navbar-nav ml-auto">
+                <ul class="nav navbar-nav ml-auto" style="color: #C5C6C7;">
                    <li class="nav-item"><a class="nav-link" href="#AboutMe" data-offset="100">About Me</a></li>
                    <li class="nav-item"><a class="nav-link" href="#ProjectExamples" data-offset="100">Project Examples</a></li>
                    <li class="nav-item"><a class="nav-link" href="#ContactMe" data-offset="100">Contact Me</a></li>
                </ul>
-            </div>  
-        </nav>  
+            </div> <!-- End of collapsible navigation bar --> 
+        </nav> <!-- End of Navigation bar -->
             
         
-        <nav class="page" id="AboutMe">
-            <nav class="container-fluid" style="background-color: #C5C6C7;">
-                <nav class="row" style="padding-top:5%; padding-bottom:3%;">
-                    <nav class="col-lg-1 col-md-4 col-sm-3 col-xs-3"></nav>
-                    <nav class="col-lg-2 col-md-4 col-sm-6 col-xs-6">
-                        <img style="margin-left: 5%; margin-left: 5%;" class="rounded-circle" src="img/Out to Eat Iowa City - About Me.jpg" alt="Out to eat in Iowa City." width="250" height="250">
-                    </nav>
-                    <nav class="col-lg-1 col-md-4 col-sm-3 col-xs-3"></nav>
-                    <nav class="col-lg-8 col-md-12">
+        <!-- About me page start -->
+        <div class="page" id="AboutMe">
+            <div class="container-fluid" style="background-color: #C5C6C7;">
+                <div class="row" style="padding-top:5%; padding-bottom:3%;">
+                    <div class="col-lg-1 col-md-4 col-sm-3 col-xs-1"></div>
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-10">
+                        <img style="margin-left: 5%; margin-left: 5%;" class="rounded-circle" src="img/Out to Eat Iowa City.jpg" alt="Out to eat in Iowa City." width="250" height="250">
+                    </div>
+                    <div class="col-lg-1 col-md-4 col-sm-3 col-xs-1"></div>
+                    <div class="col-lg-8 col-md-12">
                         
-                        
+                        <!-- About me paragraph -->
                         <h2 style="text-align: center; padding-top:2%; color: #0B0C10;">About Me</h2>
                         <p style="text-align: center; padding-top:5%;"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
                             Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc 
                             ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Donec sed odio dui. 
                             Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis 
                             dis parturient montes, nascetur ridiculus mus.</p>
-                    </nav>
-                </nav>
-            </nav>
-        </nav>
+                    </div> <!-- End of row -->
+                </div> <!-- End of row -->
+            </div> <!-- End of container-fluid -->
+        </div> <!-- End of About Me page -->
 
+        <!-- Project Examples page -->
         <div class="page" id="ProjectExamples" style="background-color: #C5C6C7;">
             <h2 style="text-align: center;">Project Examples</h2>
             
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Beginning of carousel -->
+            <div id="myProjects" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myProjects" data-slide-to="0" class="active"></li>
+                    <li data-target="#myProjects" data-slide-to="1"></li>
+                    <li data-target="#myProjects" data-slide-to="2"></li>
+                    <li data-target="#myProjects" data-slide-to="3"></li>
                 </ol>
 
-                <!-- Wrapper for slides -->
+                <!-- Images in carousel -->
                 <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="la.jpg" alt="Los Angeles">
-                    </div>
-
-                    <div class="item">
-                        <img src="chicago.jpg" alt="Chicago">
-                    </div>
-
-                    <div class="item">
-                        <img src="ny.jpg" alt="New York">
-                    </div>
-                </div>
+                    <div class="item active"> <img src="Portfolio Web Page.jpg" alt="Image of current web page on smart device."> </div>
+                    <div class="item"> <img src="Weather Web App - 1.jpg" alt="Image of weather web application."> </div>
+                    <div class="item"> <img src="Flights Web App.jpg" alt="Image of flights web application"> </div>
+                    <div class="item"> <img src="Smite Project - Work in Progress.jpg" alt="Image of current project - work in progress"> </div>
+                </div> <!-- End of images in carousel -->
 
                 <!-- Left and right controls -->
                 <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -110,12 +108,13 @@
                     <span class="glyphicon glyphicon-chevron-right"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
+            </div> <!-- End of carousel -->
         </div> <!-- Page Project Examples -->
         
+        <!-- Beginning of Contact Me page -->
         <div class="page" id="ContactMe">
             <h2 style="height:1500px;"> Contact Me</h2>
-        </div> <!-- Page Project Examples -->
+        </div> <!-- End of Contract Me page -->
         
     </body>
 </html>
