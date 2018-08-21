@@ -8,7 +8,7 @@ was to learn how to use bootstrap, better understand HTML, CSS and Javascript.
 
 For more information feel free to email me at ReedStock1992@gmail.com
 
-Technologies:
+<b>Technologies:<b>
  - Bootstrap 4.1.3
    - Bootstrap JQuery 3.1.3
    - Bootstrap font-awesome 4.7.0
