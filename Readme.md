@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Porfolio
 Static hosted GitHub personal portfolio website.
 
 <b>Objective:</b> <br>
@@ -16,3 +16,5 @@ For more information feel free to email me at ReedStock1992@gmail.com
  - Javascript
  - CSS
  - HTML
+ 
+ Visit the site at: https://rstock08.github.io/public_html/index.html
