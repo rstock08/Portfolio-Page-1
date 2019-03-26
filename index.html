@@ -103,51 +103,62 @@
     <!-- About me section start -->
     <section id="AboutMe">
       <div class="container-fluid" style="background-color: #C5C6C7;">
-        <div class="row" style="padding-top:5%; padding-bottom:3%;">
-          <div class="col-lg-1 col-md-4 col-sm-3 col-xs-1"></div>
-          <div class="col-lg-2 col-md-4 col-sm-6 col-xs-10">
-            <img
-              style="margin-top: 30%; margin-bottom: 10%; margin-right: 5%; margin-left: 5%; padding: auto;"
-              class="rounded-circle"
-              src="img/about me/ProfilePic2.jpg"
-              alt="Watching the sunset in San Diego."
-              width="300"
-              height="300"
-            />
-          </div>
-          <div class="col-lg-1 col-md-4 col-sm-3 col-xs-1"></div>
-          <div class="col-lg-8 col-md-12">
+        <div class="row">
+            <div class="col-lg-3 text-center" style="background-color:#C5C6C7; padding-top: 3%">
+                
+                <!-- AboutMe Profile Image -->
+                <img
+                    class="rounded-circle mx-auto d-block"
+                    src="img/about me/ProfilePic.jpg"
+                    alt="Watching the sunset in San Diego."
+                    width="270"
+                    height="300"
+                />
+
+                <!-- Button to Open the Modal -->
+                <button
+                id="modalColors"
+                style="color: #C5C6C7; background-color: #45A29E; margin-top:6%; border: none; margin-bottom: 6%;"
+                type="button"
+                onmouseover="hoverModal(modalColors);"
+                onmouseout="unhoverModal(modalColors);"
+                class="btn btn-primary text-center"
+                data-toggle="modal"
+                data-target="#myResumeModal"
+                >
+                Check out my Resume
+                </button>
+
+            </div> <!-- End of Image/Button Column -->
+
+            <div class="col-lg-9" style="background-color:#C5C6C7; padding-left:4%; padding-right:4%;">
             <!-- About me paragraph -->
             <h2 style="text-align: center; padding-top:2%; color: #1F2833;">
               <b>About Me</b>
             </h2>
-            <p style="text-align: center; padding-top:3%;">
-                Having moved to the San Diego in August of 2018,
-                I have since been employed as a Junior Software Engineer at 
-                HII - Technical Solutions Division. As the only onsite Software 
-                Engineer I wear many hats. Among my responsiblities I act as a 
-                liason between our customers, Software Engineers and the IT team.
-                Additionally, I provide QA testing along with detailed bug reports.
+            <p style="text-align: center; padding-top:2%;">
+                Having moved to San Diego in August of 2018, I have since been employed 
+                as a Junior Software Engineer at HII - Technical Solutions Division. 
+                As the only onsite Software Engineer, I wear many hats. Among my responsibilities
+                , I act as a liaison between our customers, Software Engineers, and the IT team. 
+                Additionally, I provide <b>QA testing</b> along with detailed bug reports.
             </p>
 
             <p style="text-align: center;">
-                When I am wearing my Software Engineering hat I write and maintain 
-                a custome built installation package both the main application as well
-                as several prerequisite applications necessary to run it. I've also written
-                CSV Exporters that use RabbitMQ to collect information from our PostgreSQL database.
-                This information is then turned into an easily read CSV file which is used
-                to improve our machine learning aglorithm. These applications have saved hundreds
-                of man hours as the information fed to the algorithm was manually gathered before
-                and each prerequisite software was manually installed - taking out as much of the human factor 
-                in repetitive tasks means fewer errors!
+                When I am wearing my Software Engineering hat I write and maintain a custom-built 
+                installation package both the main application as well as several prerequisite 
+                applications necessary to run it. I've also written CSV Exporters that use RabbitMQ 
+                to collect information from our <b>PostgreSQL</b> database. This information is then turned 
+                into an easily read CSV file which is used to improve our machine learning algorithm. 
+                These applications have saved hundreds of man-hours as the information fed to the 
+                algorithm was manually gathered before and each prerequisite software was manually 
+                installed - taking out as much of the human factor in repetitive tasks means fewer errors!
             </p>
             <p style="text-align: center;">
-                On my own I have continued to advance as a Software Engineer.
-                Recently I wrote this website. I learned how to use <b>Bootstrap 4</b> to
-                streamline the process of creating <b>responsive websites</b>.
-                Additionally, I am learning more about <b>Object Oriented Design</b> 
-                on my own with sites set on learning <b>JavaScript Frameworks</b> such as 
-                <b>Springboot</b> and <b>Angular</b>.
+                On my own, I have continued to advance as a Software Engineer. Recently I wrote this website.
+                 I learned how to use <b>Bootstrap 4</b> to streamline the process of creating <b>responsive websites</b>. 
+                 Additionally, I am learning more about Object Oriented Design on my own with sites set on 
+                 learning <b>JavaScript Frameworks</b> such as <b>Springboot</b> and <b>Angular</b>.
             </p>
             <P style="text-align: center;">
               Feel free to use check out my resume below or use the contact form
@@ -159,20 +170,6 @@
           <!-- End of row -->
         </div>
         <!-- End of row -->
-
-        <!-- Button to Open the Modal -->
-        <button
-          id="modalColors"
-          style="color: #C5C6C7; background-color: #45A29E; margin-left: 12%; margin-bottom: 2%; border: none;"
-          type="button"
-          onmouseover="hoverModal(modalColors);"
-          onmouseout="unhoverModal(modalColors);"
-          class="btn btn-primary"
-          data-toggle="modal"
-          data-target="#myResumeModal"
-        >
-          Check out my Resume
-        </button>
       </div>
       <!-- End of container-fluid -->
     </section>
