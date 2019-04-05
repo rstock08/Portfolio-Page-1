@@ -4,86 +4,34 @@
 
 /*
 Color Scheme:
-
-Black: #0B0C10 
-Navy Blue: #1F2833 
-Grey: #C5C6C7 
-Teal: #66FCF1 
-Dark Teal: #45A29E
+Black: #000000
+INK: #062F4F
+POSY: #813772
+EMBERS: #B82601
 */
 
-/* Text area for contact me form */
-textarea.form-control {
-  height: 200px;
+.body {
+  overflow: hidden;
 }
 
-/* Social Media Style */
-ul {
-  padding: 0;
-  list-style: none;
-}
-.footer-social-icons {
-  width: 350px;
-  display: block;
-  margin: 0 auto;
-}
-.social-icon {
-  color: #fff;
-}
-ul.social-icons {
-  margin-top: 10px;
-}
-.social-icons li {
-  vertical-align: top;
-  display: inline;
-}
-.social-icons a {
-  color: #fff;
-  text-decoration: none;
-}
-.fa-linkedin {
-  padding: 10px 14px;
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  background-color: #0077b5;
-}
-.fa-linkedin:hover {
-  background-color: #565695;
-  color: #66fcf1;
-}
-
-/* Contact form center */
-.form-center {
-  padding-left: 25%;
-  padding-right: 25%;
-}
-
-/* Jumbotron */
-.jumbotron {
+/* Jumbotron set background image*/
+.banner-background {
   background-image: url(../img/England-Jumbotron.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
 }
 
-.layer {
-  background-color: rgba(248, 247, 216, 0.7);
+/* Jumbotron overlay */
+.banner-overlay {
+  background-color: rgba(0, 32, 100, 0.4);
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-/* Styling when screen is 600px or less */
-@media screen and (max-width: 600px) {
-  /* Contact form centering on media */
-  .form-center {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
-  /* Linkedin positioning on media */
-  .linkedIn-position {
-  }
+  overflow: hidden;
 }
