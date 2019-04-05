@@ -240,11 +240,14 @@
         <form
           class="form-horizontal form-center"
           method="POST"
-          action="https://formspree.io/ReedStock1992@gmail.com"
+          name="contact"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
         >
           <div class="form-group">
             <label style="color: #66FCF1;" for="nameInput"></label>
             <input
+              required="true"
               type="text"
               class="form-control"
               id="nameInput"
@@ -252,10 +255,11 @@
               name="name"
             />
           </div>
-          <input type="hidden" name="_next" value="MessageFailed.html" />
+          <input type="hidden" name="_next" value="MessageSent.html" />
           <div class="form-group">
             <label style="color: #66FCF1;" for="emailInput"></label>
             <input
+              required="true"
               type="email"
               class="form-control"
               id="emailInput"
@@ -266,6 +270,7 @@
           <div class="form-group ">
             <label style="color: #66FCF1;" for="textArea"></label>
             <textarea
+              required="true"
               class="form-control"
               id="textArea"
               placeholder="Description"
