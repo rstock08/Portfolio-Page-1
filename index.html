@@ -34,10 +34,16 @@
   </head>
 
   <body
-    style="background-color: #1F2833"
+  
+    style="background-color: #000000"
     data-spy="scroll"
     data-target=".navbar"
     data-offset="100">
+
+    <!-- Black: #000000
+    INK: #062F4F
+    POSY: #813772
+    EMBERS: #B82601 -->
 
     <!-- Navigation bar with logo and toggle for collapsing -->
     <nav class="navbar navbar-expand-md bg-company-red navbar-dark fixed-top">
@@ -91,29 +97,37 @@
         class="img-fluid banner"
         alt="Overlay image of England">
         <h1 class="intro-centered display-1"><b>Hi, I'm Reed.</b></h1>
-        <h2 class="low-centered display-4">Software Engineer. Innovator. Free-Lancer.</h3>
+        <h2 class="low-centered display-4">Software Engineer. Innovator. Self Starter. Self Learner.</h3>
       </div>
     </section> <!-- Page Home -->
 
+    <!-- Black: #000000
+    INK: #062F4F
+    POSY: #813772
+    EMBERS: #B82601
+    GREY: #C5C6C7
+   -->
+
     <!-- About me section start -->
     <section id="AboutMe">
-      <div class="container-fluid" style="background-color: #C5C6C7;">
-        <div class="row">
+      <div class="container-fluid">
+        <div class="row" style="background-color:#062F4F;">
           <div
             class="col-lg-3 text-center"
-            style="background-color:#C5C6C7; padding-top: 10%">
+            style=" padding-top: 10%">
             <!-- AboutMe Profile Image -->
             <img
               class="rounded-circle mx-auto d-block"
               src="img/about me/ProfilePic.jpg"
               alt="Watching the sunset in San Diego."
-              width="270"
-              height="300"/>
+              width="260"
+              height="300"
+              />
 
             <!-- Button to Open the Modal -->
             <button
               id="modalColors"
-              style="color: #C5C6C7; background-color: #45A29E; margin-top:6%; border: none; margin-bottom: 6%;"
+              style="color: #000000; background-color: #B82601; margin-top:6%; border: none; margin-bottom: 6%;"
               type="button"
               onmouseover="hoverModal(modalColors);"
               onmouseout="unhoverModal(modalColors);"
@@ -126,48 +140,50 @@
 
           <div
             class="col-lg-9"
-            style="background-color:#C5C6C7; padding-left:4%; padding-right:4%;">
+            style=" padding-left:4%; padding-right:4%; color:#813772;">
             <!-- About me paragraph -->
-            <h2 style="text-align: center; padding-top:10%; color: #1F2833;">
+            <h2 style="text-align: center; padding-top:10%;">
               <b>About Me</b>
             </h2>
-            <p style="text-align: center; padding-top:2%;">
-              Having moved to San Diego in August of 2018, I have since been
-              employed as a Junior Software Engineer at HII - Technical
-              Solutions Division. As the only onsite Software Engineer, I wear
-              many hats. Among my responsibilities , I act as a liaison between
-              our customers, Software Engineers, and the IT team. Additionally,
-              I provide <b>QA testing</b> along with detailed bug reports.
-            </p>
+            <div style="text-align: center; font-size: 20px; color: white;">
+              <p style="text-align: center; padding-top:2%;">
+                Having moved to San Diego in August of 2018, I have since been
+                employed as a Junior Software Engineer at HII - Technical
+                Solutions Division. As the only onsite Software Engineer, I wear
+                many hats. Among my responsibilities , I act as a liaison between
+                our customers, Software Engineers, and the IT team. Additionally,
+                I provide <b>QA testing</b> along with detailed bug reports.
+              </p>
 
-            <p style="text-align: center;">
-              When I am wearing my Software Engineering hat I write and maintain
-              a custom-built installation package both the main application as
-              well as several prerequisite applications necessary to run it.
-              I've also written CSV Exporters that use RabbitMQ to collect
-              information from our <b>PostgreSQL</b> database. This information
-              is then turned into an easily read CSV file which is used to
-              improve our machine learning algorithm. These applications have
-              saved hundreds of man-hours as the information fed to the
-              algorithm was manually gathered before and each prerequisite
-              software was manually installed - taking out as much of the human
-              factor in repetitive tasks means fewer errors!
-            </p>
-            <p style="text-align: center;">
-              On my own, I have continued to advance as a Software Engineer.
-              Recently I wrote this website. I learned how to use
-              <b>Bootstrap 4</b> to streamline the process of creating
-              <b>responsive websites</b>. Additionally, I am learning more about
-              Object Oriented Design on my own with sites set on learning
-              <b>JavaScript Frameworks</b> such as <b>Springboot</b> and
-              <b>Angular</b>.
-            </p>
-            <P style="text-align: center; padding-bottom: 8%;">
-              Feel free to use check out my resume below or use the contact form
-              to reach out to me! You can also email me directly at
-              <b>ReedStock1992@Gmail.com</b> or click the LinkedIn button at the
-              bottom to connect with me.
-            </P>
+              <p>
+                When I am wearing my Software Engineering hat I write and maintain
+                a custom-built installation package both the main application as
+                well as several prerequisite applications necessary to run it.
+                I've also written CSV Exporters that use RabbitMQ to collect
+                information from our <b>PostgreSQL</b> database. This information
+                is then turned into an easily read CSV file which is used to
+                improve our machine learning algorithm. These applications have
+                saved hundreds of man-hours as the information fed to the
+                algorithm was manually gathered before and each prerequisite
+                software was manually installed - taking out as much of the human
+                factor in repetitive tasks means fewer errors!
+              </p>
+              <p>
+                On my own, I have continued to advance as a Software Engineer.
+                Recently I wrote this website. I learned how to use
+                <b>Bootstrap 4</b> to streamline the process of creating
+                <b>responsive websites</b>. Additionally, I am learning more about
+                Object Oriented Design on my own with sites set on learning
+                <b>JavaScript Frameworks</b> such as <b>Springboot</b> and
+                <b>Angular</b>.
+              </p>
+              <P style="padding-bottom: 8%;">
+                Feel free to use check out my resume below or use the contact form
+                to reach out to me! You can also email me directly at
+                <b>ReedStock1992@Gmail.com</b> or click the LinkedIn button at the
+                bottom to connect with me.
+              </P>
+            </div>
           </div> <!-- End of row -->
         </div> <!-- End of row -->
       </div> <!-- End of container-fluid -->
@@ -209,9 +225,9 @@
     <section
       id="contactMe"
       class="content-section text-center"
-      style=" padding-top: 5%; padding-bottom: 5%; background-color: #333333;">
+      style=" padding-top: 5%; padding-bottom: 5%; background-color: #000000;">
       <h2
-        style="text-align: center; padding-top: 2%; padding-bottom: 3%; color: #66FCF1; width: 100%">
+        style="text-align: center; padding-top: 2%; padding-bottom: 3%; color: #813772; width: 100%">
         <b>Lets Chat!</b>
       </h2>
       <div class="contact-section">
@@ -253,7 +269,7 @@
     <!-- Social media bar -->
     <div
       class="container-fluid"
-      style="background-color: #C5C6C7; padding-top: 0.05%; padding-bottom: 0.05%;"
+      style="background-color: #813772; padding-top: 0.05%; padding-bottom: 0.05%;"
     >
       <div class="footer-social-icons">
         <ul class="social-icons">

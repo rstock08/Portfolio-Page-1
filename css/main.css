@@ -46,7 +46,7 @@ EMBERS: #B82601
 .low-centered {
   position: absolute;
   top: 55%;
-  left: 20%;
+  left: 10%;
 }
 
 
@@ -116,7 +116,7 @@ textarea.form-control {
     transform: translate(-50%, -50%);
   }
   .low-centered {
-    font-size: 40px;
+    font-size: 35px;
     position: absolute;
     top: 60%;
     left: 50%;

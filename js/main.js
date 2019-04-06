@@ -21,10 +21,10 @@ function unhover(logoColor) {
 
 // Function to change Resume modal button colors
 function hoverModal(modalColors) {
-    modalColors.style.color = "#1F2833";
-    modalColors.style.background = "#66FCF1";
+    modalColors.style.color = "#000000";
+    modalColors.style.background = "#813772";
 }
 function unhoverModal (modalColors) {
-    modalColors.style.color = "#C5C6C7";
-    modalColors.style.background = "#45A29E";
+    modalColors.style.color = "#000000";
+    modalColors.style.background = "#B82601";
 }
