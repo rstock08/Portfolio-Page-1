@@ -5,21 +5,18 @@
 /*
 Color Scheme:
 
-Black: #0B0C10 
-Navy Blue: #1F2833 
-Grey: #C5C6C7 
-Teal: #66FCF1 
-Dark Teal: #45A29E
+Black: #000000
+INK: #062F4F
+POSY: #813772
+EMBERS: #B82601
 */
 
-// Functions to change home button color/image for rocket
-function hover(homeButton, rocketColor) {
-  rocketColor.setAttribute("src", "img/animation/Rocket-Launching.png");
-  homeButton.style.color = "#66FCF1";
+// Functions to change image color for logo
+function hover(logoColor) {
+  logoColor.setAttribute("src", "img/icon/INK.png");
 }
-function unhover(homeButton, rocketColor) {
-  rocketColor.setAttribute("src", "img/animation/Rocket.png");
-  homeButton.style.color = "#C5C6C7";
+function unhover(logoColor) {
+  logoColor.setAttribute("src", "img/icon/BLACK.png");
 }
 
 // Function to change Resume modal button colors
