@@ -27,11 +27,26 @@ EMBERS: #B82601
 
 /* Header image classes*/
 .banner {
-  max-width: 100%; 
-  height: auto;
+  background-color: #062F4F;
+  opacity: .38;
 }
-.banner-overlay {
-  background-color: rgba(0, 32, 100, 0.8);
+.banner-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 0;
+}
+.intro-centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.low-centered {
+  position: absolute;
+  top: 55%;
+  left: 20%;
 }
 
 
@@ -86,19 +101,50 @@ textarea.form-control {
 
 /* Styling when screen is 600px or less */
 @media screen and (max-width: 1000px){
+
   /* Contact form centering on media */
   .form-center {
     padding-left: 25%;
     padding-right: 25%;
+  }
+
+  /* Banner text classes */
+  .intro-centered {
+    font-size: 50px;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .low-centered {
+    font-size: 40px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    padding-top: 10%;
+    transform: translate(-50%, -50%);
   }
 }
 
 
 /* Styling when screen is 600px or less */
 @media screen and (max-width: 600px) {
+
   /* Contact form centering on media */
   .form-center {
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  /* Banner text classes */
+  .intro-centered {
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .low-centered {
+    font-size: 20px;
+    top: 60%;
   }
 }
