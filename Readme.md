@@ -16,7 +16,6 @@ For more information feel free to email me at ReedStock1992@gmail.com
  - Javascript
  - CSS
  - HTML
- 
- Hosted by Netlify
+ - Hosted by Netlify
  
  Visit the site at: https://www.ReedStock.me
