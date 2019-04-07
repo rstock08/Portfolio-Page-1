@@ -29,22 +29,25 @@ EMBERS: #B82601
 .banner-fluid {
   position: relative;
   text-align: center;
-  color: #000000;
-  background-color: #B82601;
   width: 100%;
   padding: 0;
-  opacity: 0.5;
+  opacity: 0.6;
+}
+.container-fluid{
+  padding: 0;
+  background-color: #062F4F;
+  color: white;
 }
 .intro-centered {
   position: absolute;
   top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 10%;
+  padding-left: 25%;
 }
 .low-centered {
   position: absolute;
   top: 55%;
-  left: 10%;
+  padding:10%;
 }
 
 
@@ -97,7 +100,7 @@ textarea.form-control {
 }
 
 
-/* Styling when screen is 600px or less */
+/* Styling when screen is 1000px or less */
 @media screen and (max-width: 1000px){
 
   /* Contact form centering on media */
@@ -109,16 +112,40 @@ textarea.form-control {
   /* Banner text classes */
   .intro-centered {
     position: absolute;
-    font-size: 50px;
-    top: 30%;
-    left: 40%;
+    top: 20%;
+    padding-top: 10%;
+    padding-left: 25%;
+    font-size: 60px;
   }
   .low-centered {
     position: absolute;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-    top: 60%;
-    left: 50%;
+    top: 35%;
+    padding:10%;
+    font-size: 34px;
+  }
+}
+
+/* Styling when screen is 800px or less */
+@media screen and (max-width: 800px){
+
+  /* Contact form centering on media */
+  .form-center {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  /* Banner text classes */
+  .intro-centered {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    font-size: 60px;
+  }
+  .low-centered {
+    position: absolute;
+    top: 20%;
+    left:8%;
+    font-size: 34px;
   }
 }
 
@@ -136,12 +163,13 @@ textarea.form-control {
   .intro-centered {
     position: absolute;
     font-size: 30px;
-    top: 40%;
-    left: 40%;
+    top: 7%;
+    left: 5%;
   }
   .low-centered {
     position: absolute;
     font-size: 20px;
-    top: 65%;
+    top: 15%;
+    left: 5%;
   }
 }
