@@ -16,4 +16,4 @@ was to learn how to use bootstrap, better understand HTML, CSS and Javascript.
  
  Visit the site at: https://www.ReedStock.me
  
- For more information feel free to email me at ReedStock1992@gmail.com
+ For more information feel free to email me at ReedStock1992@gmail.com!
