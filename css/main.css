@@ -26,16 +26,14 @@ EMBERS: #B82601
 
 
 /* Header image classes*/
-.banner {
-  background-color: #062F4F;
-  opacity: .38;
-}
 .banner-fluid {
   position: relative;
   text-align: center;
-  color: white;
+  color: #000000;
+  background-color: #B82601;
   width: 100%;
   padding: 0;
+  opacity: 0.5;
 }
 .intro-centered {
   position: absolute;
@@ -110,18 +108,17 @@ textarea.form-control {
 
   /* Banner text classes */
   .intro-centered {
+    position: absolute;
     font-size: 50px;
     top: 30%;
     left: 40%;
-    transform: translate(-50%, -50%);
   }
   .low-centered {
-    font-size: 35px;
     position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
     top: 60%;
     left: 50%;
-    padding-top: 10%;
-    transform: translate(-50%, -50%);
   }
 }
 
@@ -137,14 +134,14 @@ textarea.form-control {
 
   /* Banner text classes */
   .intro-centered {
-    font-size: 30px;
     position: absolute;
+    font-size: 30px;
     top: 40%;
     left: 40%;
-    transform: translate(-50%, -50%);
   }
   .low-centered {
+    position: absolute;
     font-size: 20px;
-    top: 60%;
+    top: 65%;
   }
 }
