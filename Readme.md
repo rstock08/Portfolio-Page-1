@@ -14,6 +14,6 @@ was to learn how to use bootstrap, better understand HTML, CSS and Javascript.
  - HTML
  - Hosted by Netlify
  
- Visit the site at: https://www.ReedStock.me
+ Visit the site at: https://www.ReedStock.me (No longer up)
  
  For more information feel free to email me at ReedStock1992@gmail.com!
